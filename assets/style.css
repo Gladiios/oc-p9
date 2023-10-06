@@ -147,12 +147,17 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 40px;
 
 }
 .quote__author {
 	font-family: Spectral;
 	font-weight: 800;
 	font-size: 22px;
+}
+
+.form-ask {
+	font-size: 28px;
 }
 
 #services {
