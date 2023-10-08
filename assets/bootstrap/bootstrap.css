@@ -6924,9 +6924,6 @@ textarea.form-control-lg {
 
 .w-100 {
   width: 100% !important;
-  object-fit: cover;
-  object-position: top;
-  height: 600px;
 }
 
 .w-auto {
