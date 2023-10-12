@@ -118,7 +118,11 @@
 <div id="about">
 	<div class="picture left">
 		<img src="./assets/images/nina.webp" 
-		srcset="./assets/images/nina256.webp"
+		srcset="
+		./assets/images/nina256.webp 256w,
+		./assets/images/nina417.webp 417w
+		"
+		sizes="(min-width: 2020px) 560px, (min-width: 1200px) calc(30vw - 40px), (min-width: 660px) calc(46.15vw - 75px), calc(80vw - 51px)"
 		alt="nina">
 	</div>
 	<div id="about-me">
@@ -179,7 +183,9 @@
 			sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"/>
 			<!--  -->
 			<img data-gallery-tag="Entreprises" class="gallery-item lazyload" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"
-			srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash608.webp" alt="Entreprises"/>
+			srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash608.webp 608w" 
+			sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
+			alt="Entreprises"/>
 		</div>
 	</div>
 	<div class="quote">
