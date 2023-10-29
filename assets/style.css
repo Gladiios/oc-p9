@@ -82,14 +82,16 @@ body {
 	font-size: 30px;
 }
 .about-me__introduction {
-	font-family: 'Spectral';
-	font-weight: 800;
-	font-style: italic;
-	width: 60%;
+    font-family: "Spectral";
+    font-weight: 800;
+    font-style: italic;
+    width: 60%;
 }
-#about-me p {
-	width: 80%;
-	font-size: 14px;
+
+.about-me_text {
+    width: 80%;
+    font-size: 14px;
+	line-height: 1.3rem;
 }
 
 #gallery {
@@ -103,8 +105,8 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #000000;
-	background-color: #BEB45A;
+	color: white;
+	background-color: #5b5624;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -141,7 +143,7 @@ body {
 .quote {
 	font-family: 'Spectral';
 	font-style: italic;
-	width: 70%;
+	width: 77%;
 	margin: auto;
 	padding-block: 3em;
 }
@@ -149,13 +151,19 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-	font-size: 40px;
+	font-size: calc(1.375rem + 1.5vw);
 
 }
 .quote__author {
 	font-family: Spectral;
 	font-weight: 800;
 	font-size: 22px;
+	margin-left: 40px;
+}
+
+.figure {
+	margin: 0;
+	padding: 0;
 }
 
 .form-ask {
